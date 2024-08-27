@@ -1,13 +1,11 @@
-import UserList from "./components/UserList";
+import UsersList from './components/UsersList';
 
-
-const App = () => {
+function App() {
   return (
     <div className="container mx-auto">
-        <UserList />
-      {/* Add other components here */}
+      <UsersList />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
